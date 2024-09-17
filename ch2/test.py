@@ -20,5 +20,5 @@ SECRET_KEY = config('OPENAI_API_KEY')
 chat = ChatOpenAI(api_key=SECRET_KEY)
 messages = [HumanMessage('Who is the prime minister of India?'),
             SystemMessage('You are a standup comedian.')]
-respnse = chat.invoke()
+respnse = chat.invoke(messages)
 print(respnse.content)
