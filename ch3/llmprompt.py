@@ -23,13 +23,13 @@ formattednoInputPrompt = noInputPrompt.format()
 # now invoke the inputprompt to get the response from openai llm
 
 response = llm.invoke(formattednoInputPrompt)
-print(response)
+# print(response)
 
 
 # # example 2 prompt having one input values
 
 OneInputPrompt = PromptTemplate(input_variables=["country"],
-                 template="Tell me about the history of the {country} in 10 words.")
+                                template="Tell me about the history of the {country} in 50 words")
 
 # OneInputPrompt = PromptTemplate.from_template(
 #                                "Tell me about the history of the {country} in 10 words")
@@ -42,4 +42,4 @@ formattedOneInputPrompt = OneInputPrompt.format(country="United States")
 # now invoke the inputprompt to get the response from openai llm
 
 response = llm.invoke(formattedOneInputPrompt)
-print(response)
+# print(response)
