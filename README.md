@@ -7,15 +7,6 @@ LangChain is a powerful framework designed to simplify the integration of large 
 - [Key Features](#key-features)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
-- [Core Concepts](#core-concepts)
-  - [Chains](#chains)
-  - [Agents](#agents)
-  - [Memory](#memory)
-  - [Data Augmented Generation (DAG)](#data-augmented-generation-dag)
-- [Exploring LangChain](#exploring-langchain)
-- [Use Cases](#use-cases)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
